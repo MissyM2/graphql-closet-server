@@ -11,8 +11,8 @@ const server = new ApolloServer({
   resolvers,
   context: { models },
 });
-
-const port = config.port || 8000;
+console.log('hi there');
+const port = config.port || 4000;
 
 server
   .listen()
