@@ -5,6 +5,8 @@ const models = require('../db/models');
 const config = require('../db/config/config.json');
 
 const server = new ApolloServer({
+  introspection: true,
+  playground: true,
   typeDefs,
   resolvers,
   context: { models },

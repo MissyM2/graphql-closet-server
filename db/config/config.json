@@ -6,13 +6,5 @@
     "host": "127.0.0.1",
     "port": "5432",
     "dialect": "postgres"
-  },
-  "production": {
-    "username": "newuser",
-    "password": "password",
-    "database": "recipe-db",
-    "host": "127.0.0.1",
-    "port": "5432",
-    "dialect": "postgres"
   }
 }
